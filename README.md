@@ -9,6 +9,9 @@ This project is  a machine learning model for detecting hate speech in text. The
 The code uses the pandas library to read a CSV file containing labeled text, and then uses the sklearn library to train a model using the Naive Bayes algorithm. The performance of the model is evaluated using the accuracy metric, which is a value between 0 and 1 representing the percentage of test examples that the model correctly classified as negative( hate speech) or positive(non-hate speech).The code also takes input from the user in the form of text, and then predicts the label of the text whether it is negative(hate speech) or positive(non-hate speech).
 The goal of this code is to develop a machine learning model that can accurately identify hate speech in text, which can be useful for a variety of applications such as social media monitoring and content moderation.
 
+![WhatsApp Image 2025-04-28 at 23 23 45_e7a03435](https://github.com/user-attachments/assets/9ff0b74a-ffad-46b8-95e8-ae37c83fabda)
+
+
 # Methodology(Step By Step)
 
 1. The first step is to import the necessaryl ibraries such as pandas for data manipulation, matplotlib for data visualization , CountVectorizer and MultinomialNB from 
